@@ -11,20 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  mybutton.addEventListener("click", function() {
-    // Check for browser support
-    if ("scrollBehavior" in document.documentElement.style) {
-      // Smooth scroll to the top
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    } else {
-      // Fallback for browsers that do not support smooth scrolling
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+
     }
   });
 });
